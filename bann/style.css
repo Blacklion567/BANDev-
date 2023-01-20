@@ -1,0 +1,14 @@
+body {
+	display: flex;
+	margin: 0;
+}
+.box {
+	background: rebeccapurple;
+	height: auto;
+	border: solid green;
+}
+.grid {
+	display: flex;
+	gap: 2rem;
+	grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
